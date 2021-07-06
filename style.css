@@ -128,7 +128,7 @@ a.button {
     padding: 15px;
     background-color: #fff;
     border-radius: 30px;
-    box-shadow: 5px 5px 20px #80808080;
+    box-shadow: 5px 5px 20px hsla(0, 0%, 50%, 0.202);
 }
 
 #recipes .max-width .flexible-content .box p {
@@ -148,7 +148,7 @@ a.button {
 
 #recipes .max-width #social-box {
     border-radius: 20px;
-    box-shadow: 5px 5px 20px #80808080;
+    box-shadow: 5px 5px 20px hsla(0, 0%, 50%, 0.202);
     margin: 0 35px;
     padding: 20px 50px;
 }
@@ -176,7 +176,7 @@ a.button {
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px #80808080, -1px -1px 5px #80808080;
+    box-shadow: 1px 1px 5px hsla(0, 0%, 50%, 0.202), -1px -1px 5px hsla(0, 0%, 50%, 0.202);
     text-align: center;
     margin-top: 30px;
 }
@@ -206,7 +206,7 @@ a.button {
     padding: 50px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px #80808080, -1px -1px 5px #80808080;
+    box-shadow: 1px 1px 5px hsla(0, 0%, 50%, 0.202), -1px -1px 5px hsla(0, 0%, 50%, 0.202);
     text-align: center;
     margin-top: 30px;
 }
