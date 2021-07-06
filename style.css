@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* set some default value for everywhere */
+
+span.blue {
+    color: #342BD4;
+}
+
+.max-width {
+    padding: 80px;
+    margin: auto;
+}
+
+p,
+h1 {
+    color: #676767;
+}
+
+
+/* home starts */
+
+section .flexible-content {
+    display: flex;
+}
+
+section .half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 90%;
+    padding-left: 60px;
+}
+
+a.button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(90deg, #7A74E0, #2217C9);
+    padding: 20px 40px;
+    border-radius: 50px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 500;
+    box-shadow: 3px -3px 10px #2318c973, -3px 3px 10px #7a75e173;
+}
+
+#home .max-width .flexible-content {
+    align-items: center;
+}
+
+#home .max-width .flexible-content .half-width h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+#home .max-width .flexible-content .half-width p {
+    padding-right: 10px;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+
+/* home section ends */
+
+
+/* about section starts */
+
+#about {
+    background-image: url(images/shapes/about-bg.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+#about .max-width {
+    padding-bottom: 0;
+}
+
+#about .max-width .flexible-content .half-width img {
+    width: 65%;
+    display: block;
+}
+
+#about .half-width h1 {
+    font-size: 2em;
+}
+
+#about .half-width p {
+    font-size: 19px;
+    margin: 40px 0 60px;
+    width: 80%;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+
+/* about section done */
+
+
+/* recipe section starts */
+
+#recipes .title p {
+    padding-bottom: 25px;
+}
+
+.max-width .flexible-content.box-parent {
+    justify-content: space-around;
+}
+
+#recipes .max-width .flexible-content .box {
+    width: 25%;
+    height: 400px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px #80808080;
+}
+
+#recipes .max-width .flexible-content .box p {
+    line-height: 1.6;
+}
+
+#recipes .max-width .flexible-content .box img {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+#recipes .max-width .flexible-content .line {
+    width: 3px;
+    background-color: gray;
+}
+
+#recipes .max-width .social-box {
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #80808080;
+    margin: 0 35px;
+    padding: 20px 50px;
+}
+
+#recipes .max-width .social-box h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 16px;
+    text-align: center;
+}
+
+
+/* recipes section done */
+
+
+/* speciality section starts */
+
+#speciality {
+    background-image: url(images/shapes/speciality-bg.jpg);
+    background-size: cover;
+}
+
+#speciality .max-width .flexible-content .box {
+    width: 25%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #80808080, -1px -1px 5px #80808080;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#speciality .max-width .flexible-content .box#different {
+    background-color: #7A74E0;
+    color: white;
+}
+
+#speciality .max-width .flexible-content .box#different h1,
+#speciality .max-width .flexible-content .box#different p {
+    color: white;
+}
+
+#speciality .max-width .flexible-content .box i {
+    font-size: 40px;
+}
+
+
+/* speciality section ends */
+
+
+/* customer section starts */
+
+#customer .max-width .flexible-content .box {
+    width: 35%;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #80808080, -1px -1px 5px #80808080;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#customer .max-width .flexible-content .box .ratings {
+    padding-top: 10px;
+}
+
+#customer .max-width .flexible-content .box p {
+    margin-bottom: 0;
+}
+
+#customer .max-width .flexible-content .box img {
+    width: 20%;
+    border-radius: 50px;
+}
+
+
+/* customer section ends */
+
+
+/* footer starts */
+
+footer {
+    background-color: #DEDEDE;
+}
+
+footer .max-width {
+    padding-bottom: 20px;
+}
+
+footer .max-width div {
+    display: block;
+    text-align: center;
+}
+
+footer .max-width .flexible-content a {
+    text-decoration: none;
+    color: #676767;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 30px;
+}
