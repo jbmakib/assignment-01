@@ -21,6 +21,10 @@ h1 {
     color: #676767;
 }
 
+.max-width .flexible-content.box-parent {
+    justify-content: space-around;
+}
+
 
 /* home starts */
 
@@ -114,8 +118,8 @@ a.button {
     padding-bottom: 25px;
 }
 
-.max-width .flexible-content.box-parent {
-    justify-content: space-around;
+#recipes .max-width#social-box-parent {
+    padding-top: 0;
 }
 
 #recipes .max-width .flexible-content .box {
@@ -142,14 +146,14 @@ a.button {
     background-color: gray;
 }
 
-#recipes .max-width .social-box {
+#recipes .max-width #social-box {
     border-radius: 20px;
     box-shadow: 5px 5px 20px #80808080;
     margin: 0 35px;
     padding: 20px 50px;
 }
 
-#recipes .max-width .social-box h2 {
+#recipes .max-width #social-box h2 {
     font-size: 40px;
     font-weight: 700;
     margin-top: 16px;
